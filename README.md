@@ -1,3 +1,9 @@
+# Here are some important considerations for those who want to run the code
+1. The path to the weights in the config file needs to be changed manually.
+2. The path to the data in configs/_base_/datasets/weatherproof.py needs to be updated manually.
+3. For the MMSegmentation framework, the data should be stored in two separate folders: one for the source images and one for the annotation images. The corresponding files need to have the same names, so the data structure may need to be modified accordingly.
+
+
 # InternImage for Semantic Segmentation
 
 This folder contains the implementation of the InternImage for semantic segmentation. 
